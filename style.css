@@ -1,0 +1,72 @@
+/* Estilos generales */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/* 
+Creo que el cambio que faltaba era darle un margin  un 55px solo que al llegar 224 de width se colapsa pero no se si de este tamaño no existe nada, si no ya no se que hacer */
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  border-style: dotted;
+  border-width: 1px;
+  height: 10%;
+}
+
+h1 {
+  margin: 20px;
+}
+section {
+  margin: 55px 0px 20px 0px;
+  text-align: center;
+  border-style: dotted;
+}
+.features {
+  padding: 2%;
+}
+section .feature {
+  padding: 10px;
+}
+main {
+  position: relative;
+}
+main .content {
+  padding: 1%;
+  text-align: left;
+}
+/* 
+No se si lo que te refieres es que ponga un margin de 10px a la derecha pero veo que depende de como de pequeño lo haga se ve fatal, y no se que mas hacer.
+Tambien he probado de meclar px con % y veo que funciona. */
+main .sidebar {
+  position: relative;
+  padding: 1%;
+  margin: 0% 10px 0% 85%;
+  border-style: dotted;
+}
+
+body {
+  position: absolute;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto,
+    Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  margin-top: 8%;
+  width: 100%;
+  background-color: #000000;
+  color: #9ad79b;
+  height: 80%;
+}
+
+footer {
+  position: sticky;
+  text-align: center;
+  margin-bottom: 0px;
+  width: 100%;
+  height: 10%;
+  border-style: dotted;
+}
+
+footer p {
+  padding: 2%;
+}
